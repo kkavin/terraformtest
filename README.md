@@ -8,7 +8,7 @@ Tools & Cloud Used for this project
 5. Shell Script
 
 ## Terraform Scripts   - Total Hours 3 Hours
-# 1. Version.tf
+# 1.version.tf
 Version tf will do the below mentioned steps
 1. Terraform  Block - This block contain a number of settings related to Terraform's behavior
 2. Provider Block - Provider plugins like the AWS provider
