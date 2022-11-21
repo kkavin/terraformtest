@@ -45,3 +45,6 @@ Resource block to create the Elastic IP during the instance launch
    1. terraform init - Initialize the terraform folder it will download all the plugins which is related to AWS
    2. terraform plan - Command to create an execution plan
    3. terraform apply - Creates the resources for the execution plan
+
+# Architecture
+![test](https://user-images.githubusercontent.com/12288251/203039418-413a9624-7ec9-4358-a716-2c9381ed4fa0.png)
