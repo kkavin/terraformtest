@@ -1,6 +1,6 @@
 # Create EC2 instance
 
-resource "aws_instance" "my_ec2" {
+resource "aws_instance" "test_ec2" {
     ami = "ami-089950bc622d39ed8"
     instance_type = "t2.medium"
     key_name = "jenkinspoc"
