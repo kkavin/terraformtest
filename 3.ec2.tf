@@ -24,9 +24,9 @@ resource "aws_instance" "test_ec2" {
       mkdir /opt/test && cd /opt/test
       chmod -R 755 /opt/test/ 
       git clone https://github.com/kkavin/DevOps-test.git
-      #screen -dmS test
-      #screen -S test -p 0 -X stuff "cd /opt/test/practicum-devops/api && make build && make up && make prepare"
-      cd /opt/test/practicum-devops/api && make build && make up && make prepare 
+      screen -dmS test
+      screen -S test -p 0 -X stuff "cd /opt/test/DevOps-test/api && make build && make up && make prepare"
+      #cd /opt/test/DevOps-test/api && make build && make up && make prepare 
      
     EOF
 }
