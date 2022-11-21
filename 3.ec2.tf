@@ -23,7 +23,7 @@ resource "aws_instance" "test_ec2" {
       sudo curl -L "https://github.com/docker/compose/releases/download/v2.12.2/docker-compose-$(uname -s)-$(uname -m)"  -o /usr/local/bin/docker-compose && sudo mv /usr/local/bin/docker-compose /usr/bin/docker-compose && sudo chmod +x /usr/bin/docker-compose
       mkdir /opt/test && cd /opt/test
       chmod -R 755 /opt/test/ 
-      git clone https://github.com/CareerFoundry-Engineering/practicum-devops.git  
+      git clone https://github.com/kkavin/DevOps-test.git
       #screen -dmS test
       #screen -S test -p 0 -X stuff "cd /opt/test/practicum-devops/api && make build && make up && make prepare"
       cd /opt/test/practicum-devops/api && make build && make up && make prepare 
